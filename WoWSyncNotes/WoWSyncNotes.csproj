@@ -1,10 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Title>WoWSyncNotes</Title>
+		<Authors>Karzik of Westfall</Authors>
+		<Product>WoWTools</Product>
+		<Description>CharacterNotes Addon Data Synchronization</Description>
+		<Copyright>Copyright (C) 2024 by KoW Creations, All Rights Reserved.</Copyright>
+		<Version>0.0.1</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="NLog" Version="5.3.*" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.*" />
+	</ItemGroup>
 
 </Project>
